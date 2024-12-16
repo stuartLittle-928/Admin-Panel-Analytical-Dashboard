@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { LeftsideBarComponent } from "../leftside-bar/leftside-bar.component";
+import { DataCommunicationService } from '../../services/data-communication.service';
 
 @Component({
   selector: 'app-header',
@@ -12,12 +13,14 @@ export class HeaderComponent {
 
   showSideBar: boolean = true;
 
-  constructor(){
+  
+  constructor(private dataCommunication: DataCommunicationService) {}
 
-  }
+  // onclick function called 
   toggle(){
     this.showSideBar = !this.showSideBar;
-    console.log(this.showSideBar, 'status...')
-  }
 
+    // setting sidebar data using service 
+    this.dataCommunication.setSideBarStatus(this.showSideBar);
+  }
 }
