@@ -1,0 +1,229 @@
+.upperBlocks
+{
+    height: 110px;
+    width: 35%;
+    margin: 10px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 20px;
+    padding-left: 20px;
+    color: white;
+}
+.top
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.heading
+{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid #dfe4e6;
+}
+
+.btn
+{
+    border-radius: 5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    font-weight: 300;
+
+}
+
+.ouetr-table
+{
+    padding: 10px;
+}
+
+.table
+{
+    border: 1px solid #dfe4e6;
+}
+
+.bg-grey-dark {
+    background-color: #8795a1;
+}
+
+.Bar-outer{
+    margin: 10px;
+    border: 1px solid #dfe4e6;
+
+}
+
+.poll-header{
+    padding: 10px 10px 0px 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bar{
+    margin: 10px 0px 10px 0px;
+    font-size: 0.75rem;
+    color: white;
+    background-color: #dae1e7;
+    text-align: center;
+}
+
+.bar1
+{
+    background-color: #4299e1;
+    width: 45%;
+}
+
+.bar2
+{
+    background-color: #38b2ac;
+    width: 55%;
+}
+
+.bar3
+{
+    background-color: #ed8936;
+    width: 65%;
+}
+
+.bar4
+{
+    background-color: #9b2c2c;
+    width: 75%;
+}
+
+/* table th tr 
+{
+    background-color: grey !important;
+} */
+
+.user{
+    width: 25%;
+    height: 350px;
+    border: 1px solid;
+    margin: 30px 30px 40px 10px;
+}
+
+.img2
+{
+    width: 30%;
+    border-radius: 50%;
+}
+/* .image{
+    width: 25%;
+} */
+
+.image1{
+    width: 100%;
+    position: relative;
+}
+.table>:not(caption)>*>*{
+    background-color: transparent !important;
+}
+
+.profileTabs
+{
+    display: flex;
+    flex-direction: row;
+    padding: 0.25rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    flex: 1 1 0%;
+    justify-content: space-between;
+}
+.profile
+{
+    max-width: 20rem;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-radius: 0.25rem;
+    overflow: hidden;
+    border: 1px solid  #e2e8f0;
+    border-radius: 0.5rem;
+
+}
+.image1
+{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.chotiImage
+{
+    display: flex;
+    justify-content: center;
+    margin-top: -2rem;
+
+}
+.image2
+{
+    margin-top: -0.75rem;
+    border-radius: 9999px;
+    max-width: 100%;
+    height: auto;
+    z-index: 3;
+    border: 2px solid white;
+}
+.profileName
+{
+    text-align: center;
+    padding-bottom: 1.5rem;
+    padding-top: 0.5rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    border-color: #e2e8f0;
+}
+.name
+{
+    font-size: 0.875rem;
+    color: #000;
+    font-weight: inherit;
+
+}
+.paragraph
+{
+    margin-top: 0.5rem;
+    font-weight: 300;
+
+}
+.bottomText
+{
+    display: flex;
+    flex-direction: row;
+    color: #8795a1;
+    padding-bottom: 0.75rem;
+    justify-content: center;
+    border-color: #e2e8f0;
+}
+.photos
+{
+    text-align: center;
+    padding-right: 0.75rem;
+    margin-right: 0.75rem;
+    border-right-width: 1px;
+    color: #8795a1;
+    border-right: 1px solid  #e2e8f0;
+}
+
+
+@media screen and (max-width:768px) {
+    
+    .top
+    {
+            flex-direction: column;        
+    }
+    .upperBlocks
+    {
+        width: 100%;
+    }
+    .profileTabs
+    {
+        flex-direction: column;
+    }
+
+}

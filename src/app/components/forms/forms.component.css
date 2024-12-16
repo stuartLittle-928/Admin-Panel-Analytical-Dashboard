@@ -1,0 +1,328 @@
+.topforms
+{
+    display: flex;
+    flex-direction: row;
+}
+.leftform
+{
+    width: 49%;
+    border: 1px solid #dae1e7;
+    border-radius: 0.25rem;
+    margin-bottom: 0.5rem;
+}
+.inlineform
+{
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border-color:1px solid #cbd5e0;
+    background-color: #e2e8f0;
+}
+.form1
+{
+    padding: 0.75rem;
+    background-color: #f8fafc;
+    color: #bec2cc;
+}
+.fullname
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+.labelFullname
+{
+    width: 25%;
+    text-align: center;
+}
+.inputFullName
+{
+    width: 75%;
+    background-color: white;
+    padding: 0.3rem;
+}
+.input
+{
+    border: none;
+}
+.checkboxMainDiv
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.checkbox
+{
+    width: 30%;
+    text-align: end;
+    margin-right: 10px;
+}
+.checkboxtext
+{
+    width: 70%;
+}
+.button
+{
+    text-align: center;
+    margin-top: 1.5rem;
+}
+.innerButton
+{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-weight: 700;
+    border-radius: 0.25rem;
+    background-color: #9f7aea;
+    color: white;
+}
+.formss
+{
+    padding: 0.75rem;
+}
+.rightform
+{
+    width: 50%;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid;
+    border-color: #edf2f7;
+    border-radius: 0.25rem;
+}
+.underlineForm
+{
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border-bottom-width: 1px solid;
+    border-color: #edf2f7;
+    background-color: #edf2f7;
+}
+.form2
+{
+    padding: 0.75rem;
+}
+.input1
+{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid;
+    border-color: #38b2ac;
+}
+.input
+{
+    width: 100%;
+    color: #718096;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.signup{
+    width: 15%;
+    font-size: 0.875rem;
+    color: #fff;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    border: 4px solid #38b2ac;
+    border-radius: 0.25rem;
+    background-color: #38b2ac;
+}
+.cancel
+{
+    font-size: 0.875rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    border: 4px solid transparent;
+    border-radius: 0.25rem;
+}
+.lowerForm
+{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    /* border: 1px solid #e2e8f0;; */
+}
+.lowerInner
+{
+    width: 100%;
+    margin-bottom: 0.5rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.25rem;
+}
+.lowerHeading
+{
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border-bottom: 1px solid #edf2f7;   
+    background-color: #edf2f7;  
+}
+.FormOuter
+{
+    padding: 0.75rem;
+    /* border: 1px solid #e2e8f0; */
+    background-color: #f8fafc;
+
+}
+.formInner
+{
+    width: 100%;
+}
+.names
+{
+    /* margin-bottom: 1.5rem; */
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+    display: flex;
+    flex-direction: row;
+}
+.firstName
+{
+    width: 50%;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+.labelfirst
+{
+    letter-spacing: 0.025em;
+    font-size: 0.75rem;
+    color: #4a5568;
+    margin-bottom: 0.25rem;
+    font-weight: 300;   
+}
+.inputFirst{
+    width: 100%;
+    color: #4a5568;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    margin-bottom: 0.75rem;
+    border-radius: 0.25rem;
+    border: 1px solid #f56565 !important;
+    background-color: #edf2f7;
+}
+.inputlast
+{
+    width: 100%;
+    color: #4a5568;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    margin-bottom: 0.75rem;
+    border-radius: 0.25rem;
+    background-color: #edf2f7;
+    border: none;
+}
+.paragraph
+{
+    font-style: italic;
+    font-size: 0.75rem;
+    color: #f56565;
+}
+.lowerPassword
+{
+    /* margin-bottom: 1.5rem; */
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.PasswordInner
+{
+    width: 100%;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+.passwordLabel
+{
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    color: #606f7b;
+    margin-bottom: 0.25rem;
+    font-weight: 300;   
+}
+.passwordInput
+{
+    width: 100%;
+    color: #606f7b;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.25;
+    border-radius: 0.25rem;
+    border: 1px solid #e2e8f0;
+}
+.lowerpara
+{
+    font-style: italic;
+    font-size: 0.75rem;
+    color: #8795a1;
+}
+.dropDown
+{
+    margin-bottom: 0.5rem;
+    display: flex;
+    flex-direction: row;
+}
+.City
+{
+    width: 33.333333%;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+.cityLabel
+{
+    letter-spacing: 0.025em;
+    font-size: 0.75rem;
+    color: #606f7b;
+    margin-bottom: 0.25rem;
+    font-weight: 300;
+}
+.inputcity
+{
+    width: 100%;
+    color: #606f7b;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    line-height: 1.25;
+    border-radius: 0.25rem;
+    border: 1px solid #e2e8f0;
+}
+
+@media screen and (max-width:768px) {
+
+    .topforms
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .leftform
+    {
+        width: 100%;
+    }
+    .rightform
+    {
+        width: 100%;
+    }
+    .signup
+    {
+        flex-shrink: 0;
+    }
+}

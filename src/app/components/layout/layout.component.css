@@ -1,0 +1,30 @@
+.lefsidebar{
+    width: 15%;
+    float: left;
+    height: 100vh;
+    background-color: #ecf0f1;
+}
+.content-area{
+    width: 84%;
+    float: right;
+}
+.header
+{
+    background-color: #3f495e;
+}
+
+@media screen and (max-width:768px) {
+    
+    .lefsidebar
+    {
+        width: 0%;
+    }
+    .content-area
+    {
+        width: 100%;
+    }
+    .header
+    {
+        width: 100%;
+    }
+}
