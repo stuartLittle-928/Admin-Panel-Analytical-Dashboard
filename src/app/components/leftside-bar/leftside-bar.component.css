@@ -1,0 +1,37 @@
+.lefsidebar
+{
+    position: relative;
+}
+.bars
+{
+    position: absolute;
+    top: -45px;
+    font-size: 22px;
+    color: white;
+}
+
+.btn
+{
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+.element
+{
+    background-color: #ecf0f1;
+    color: #6f778d    ;
+    border: 1px solid #dfe4e6;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    cursor: pointer;  /* for hand pointer on hover  */
+}
+
+@media screen and (max-width:768px) {
+    .lefsidebar
+    {
+        display: none;
+    }
+}
