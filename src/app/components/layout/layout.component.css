@@ -49,3 +49,10 @@
         width: 100%;
     }
 }
+.changedwidthLayout{
+    width: 80%;
+}
+
+.zerowidth{
+    width: 0 !important;
+}

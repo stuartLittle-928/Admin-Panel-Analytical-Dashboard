@@ -1,9 +1,11 @@
 import { ChildActivationEnd, Routes } from '@angular/router';
-import { data } from 'jquery';
-import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { HomeComponent } from './components/home/home.component';
 
 export const routes: Routes = [
-   
+  {
+    path: 'dummy',
+    component: HomeComponent
+  },
     {
         path: '',
         loadComponent: () => import('./components/layout/layout.component').then(m => m.LayoutComponent),
@@ -18,6 +20,4 @@ export const routes: Routes = [
           }
         ]
       },
-
-
 ];
