@@ -1,0 +1,183 @@
+@media screen and (max-width: 767px)
+{
+    .outermost
+{
+    width: 100%;
+    height: 51px;
+    background-color: #3f495e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.left
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.hide
+{
+    visibility: hidden;
+}
+
+.b-text
+{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.left div
+{
+    padding: 0 5px;    
+}
+
+.right
+{
+    display: flex;
+    align-items: center;
+}
+
+.pic
+{
+    width: 33px;
+    margin: 5px;
+}
+
+.pic img 
+{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.textt
+{
+    display: none;
+}
+
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px)
+{
+.outermost
+{
+    width: 100%;
+    height: 51px;
+    background-color: #3f495e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.left
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.hide
+{
+    visibility: hidden;
+}
+
+.b-text
+{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.left div
+{
+    padding: 0 5px;    
+}
+
+.right
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pic
+{
+    width: 40px;
+}
+
+.pic img 
+{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.textt
+{
+    padding: 0 5px;
+    font-size: 18px;
+    margin: 0 5px;
+}
+}
+
+@media screen and (min-width: 992px)
+{
+    .outermost
+{
+    width: 100%;
+    height: 51px;
+    background-color: #3f495e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.left
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.hide
+{
+    visibility: hidden;
+}
+
+.b-text
+{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.left div
+{
+    padding: 0 5px;    
+}
+
+.right
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pic
+{
+    width: 40px;
+}
+
+.pic img 
+{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.textt
+{
+    padding: 0 5px;
+    font-size: 18px;
+    margin: 0 5px;
+}
+}

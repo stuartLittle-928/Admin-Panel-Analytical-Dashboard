@@ -1,0 +1,17 @@
+<app-header></app-header>
+
+<div class="main">
+    
+    <i (click)="clickFunc()"  class="fa fa-bars" aria-hidden="true"></i>
+    
+    <div [class.nav-open]="var1===true" class="left">
+        <app-sidenav></app-sidenav>
+    </div>
+
+    <div [class.nav-close]="var2===false" class="right">
+        <!-- <router-outlet></router-outlet> -->
+        <app-ui-components></app-ui-components>
+    </div>  
+</div>
+
+<app-footer></app-footer>

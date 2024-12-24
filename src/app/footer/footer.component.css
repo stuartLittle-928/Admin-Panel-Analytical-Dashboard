@@ -1,0 +1,12 @@
+.outermost
+{
+    width: 100%;
+    height: 60px;
+    color: white;
+    padding-left: 1rem;
+    background-color: #3f495e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+}
+

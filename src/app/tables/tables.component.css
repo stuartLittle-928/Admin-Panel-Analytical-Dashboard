@@ -1,0 +1,478 @@
+@media screen and (max-width: 767px)
+{
+    
+.outermost
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #f8fafc;
+    padding: 8px;
+}
+
+.upper
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.heading
+{
+    padding: 10px;
+    font-weight: 500;
+    background-color: rgb(212, 212, 218);
+}
+
+.bordered
+{
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid rgb(199, 195, 195);
+}
+
+.colored
+{
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid rgb(199, 195, 195);
+}
+
+.mainbody-left
+{
+    padding: 10px;
+}
+
+.mainbody-right
+{
+    padding: 10px;
+}
+
+.mainbody-left th, .mainbody-left td
+{
+    border: 1px solid rgb(199, 195, 195);
+    padding: 15px;
+    color: black;
+}
+
+.mainbody-right th, .mainbody-right td
+{
+    border: 1px solid transparent;
+    padding: 15px;
+    color: white;
+}
+
+.mainbody-right tr:nth-child(1)
+{
+    background-color: black;
+}
+
+.mainbody-right tr:nth-child(2)
+{
+    background-color: dodgerblue;
+}
+
+.mainbody-right tr:nth-child(3)
+{
+    background-color: rgb(93, 204, 93);
+}
+
+.mainbody-right tr:nth-child(4)
+{
+    background-color: rgb(211, 75, 82);
+}
+
+
+
+
+
+
+/* ======================================================= */
+/* ======================================================= */
+/* ======================================================= */
+/* ======================================================= */
+/* ======================================================= */
+/* ======================================================= */
+/* ======================================================= */
+/* ======================================================= */
+
+
+
+
+.lower
+{
+    width: 100%;
+}
+
+.full-table
+{
+    width: 100%;
+    border: 1px solid rgb(199, 195, 195);
+}
+
+.mainbody
+{
+    padding: 10px;
+    overflow-x: scroll;
+
+}
+
+.mainbody table
+{
+    width: 100%;
+}
+
+.mainbody th, .mainbody td
+{
+    border: 1px solid rgb(199, 195, 195);
+    padding: 15px;
+    color: black;
+}
+
+.mainbody td:last-child i
+{
+    color: white;
+    padding: 5px;
+    margin: 8px;
+    background-color: rgb(42, 184, 184);
+    border-radius: 4px;
+}
+
+.mainbody td:last-child i:last-child
+{
+    color: red;
+}
+
+.fa-check
+{
+    color: green;
+    font-size: 20px;
+}
+
+.fa-xmark
+{
+    color: red;
+    font-size: 20px;
+}
+
+}
+
+@media screen and (min-width: 768px) and (max-width:991px)
+{
+    
+.outermost
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #f8fafc;
+    padding: 8px;
+}
+
+.upper
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.heading
+{
+    padding: 10px;
+    font-weight: 500;
+    background-color: rgb(212, 212, 218);
+}
+
+.bordered
+{
+    width: 49%;
+    margin: 7px;
+    border: 1px solid rgb(199, 195, 195);
+}
+
+.colored
+{
+    width: 49%;
+    margin: 7px;
+    border: 1px solid rgb(199, 195, 195);
+}
+
+.mainbody-left
+{
+    padding: 10px;
+}
+
+.mainbody-right
+{
+    padding: 10px;
+}
+
+.mainbody-left th, .mainbody-left td
+{
+    border: 1px solid rgb(199, 195, 195);
+    padding: 15px;
+    color: black;
+}
+
+.mainbody-right th, .mainbody-right td
+{
+    border: 1px solid transparent;
+    padding: 15px;
+    color: white;
+}
+
+.mainbody-right tr:nth-child(1)
+{
+    background-color: black;
+}
+
+.mainbody-right tr:nth-child(2)
+{
+    background-color: dodgerblue;
+}
+
+.mainbody-right tr:nth-child(3)
+{
+    background-color: rgb(93, 204, 93);
+}
+
+.mainbody-right tr:nth-child(4)
+{
+    background-color: rgb(211, 75, 82);
+}
+
+
+
+
+
+
+/* ======================================================= */
+/* ======================================================= */
+/* ======================================================= */
+/* ======================================================= */
+/* ======================================================= */
+/* ======================================================= */
+/* ======================================================= */
+/* ======================================================= */
+
+
+
+
+.lower
+{
+    width: 100%;
+    padding: 7px;
+}
+
+.full-table
+{
+    width: 100%;
+    border: 1px solid rgb(199, 195, 195);
+}
+
+.mainbody
+{
+    padding: 10px;
+}
+
+.mainbody table
+{
+    width: 100%;
+}
+
+.mainbody th, .mainbody td
+{
+    border: 1px solid rgb(199, 195, 195);
+    padding: 15px;
+    color: black;
+}
+
+.mainbody td:last-child i
+{
+    color: white;
+    padding: 5px;
+    margin-right: 8px;
+    background-color: rgb(42, 184, 184);
+    border-radius: 4px;
+}
+
+.mainbody td:last-child i:last-child
+{
+    color: red;
+}
+
+.fa-check
+{
+    color: green;
+    font-size: 20px;
+}
+
+.fa-xmark
+{
+    color: red;
+    font-size: 20px;
+}
+
+}
+
+@media screen and (min-width: 992px)
+{
+
+.outermost
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #f8fafc;
+    padding: 8px;
+}
+
+.upper
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.heading
+{
+    padding: 10px;
+    font-weight: 500;
+    background-color: rgb(212, 212, 218);
+}
+
+.bordered
+{
+    width: 49%;
+    margin: 7px;
+    border: 1px solid rgb(199, 195, 195);
+}
+
+.colored
+{
+    width: 49%;
+    margin: 7px;
+    border: 1px solid rgb(199, 195, 195);
+}
+
+.mainbody-left
+{
+    padding: 10px;
+}
+
+.mainbody-right
+{
+    padding: 10px;
+}
+
+.mainbody-left th, .mainbody-left td
+{
+    border: 1px solid rgb(199, 195, 195);
+    padding: 15px;
+    color: black;
+}
+
+.mainbody-right th, .mainbody-right td
+{
+    border: 1px solid transparent;
+    padding: 15px;
+    color: white;
+}
+
+.mainbody-right tr:nth-child(1)
+{
+    background-color: black;
+}
+
+.mainbody-right tr:nth-child(2)
+{
+    background-color: dodgerblue;
+}
+
+.mainbody-right tr:nth-child(3)
+{
+    background-color: rgb(93, 204, 93);
+}
+
+.mainbody-right tr:nth-child(4)
+{
+    background-color: rgb(211, 75, 82);
+}
+
+
+
+
+
+
+/* ======================================================= */
+/* ======================================================= */
+/* ======================================================= */
+/* ======================================================= */
+/* ======================================================= */
+/* ======================================================= */
+/* ======================================================= */
+/* ======================================================= */
+
+
+
+
+.lower
+{
+    width: 100%;
+    padding: 7px;
+}
+
+.full-table
+{
+    width: 100%;
+    border: 1px solid rgb(199, 195, 195);
+}
+
+.mainbody
+{
+    padding: 10px;
+}
+
+.mainbody table
+{
+    width: 100%;
+}
+
+.mainbody th, .mainbody td
+{
+    border: 1px solid rgb(199, 195, 195);
+    padding: 15px;
+    color: black;
+}
+
+.mainbody td:last-child i
+{
+    color: white;
+    padding: 5px;
+    margin-right: 8px;
+    background-color: rgb(42, 184, 184);
+    border-radius: 4px;
+}
+
+.mainbody td:last-child i:last-child
+{
+    color: red;
+}
+
+.fa-check
+{
+    color: green;
+    font-size: 20px;
+}
+
+.fa-xmark
+{
+    color: red;
+    font-size: 20px;
+}
+
+
+}

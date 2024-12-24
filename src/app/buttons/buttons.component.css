@@ -1,0 +1,1317 @@
+@media screen and (max-width: 767px)
+{
+.outermost
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #f8fafc;
+}
+
+.btn-row
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.button-set
+{
+    width: 100%;
+    border: 1px solid grey;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.heading
+{
+    background-color: rgb(238, 236, 247);
+    border-bottom: 1px solid grey;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 8px 6px;
+    font-weight: 500;
+}
+
+.cluster
+{
+    padding: 10px; 
+    margin: 4px 3px;
+}
+
+.cluster button
+{
+    padding: 5px 12px;
+    margin-right: 8px;  
+    margin-bottom: 10px;
+    font-weight: 600;
+    border-radius: 6px;
+    border: 2px solid transparent;
+}
+
+.cluster button:active
+{
+    border: 2px solid black !important;
+}
+
+.outline-one
+{
+    color: dodgerblue;
+    border: 2px solid rgb(219, 215, 215) !important;
+    background-color: white;
+}
+
+.outline-one:hover
+{
+    color: white;
+    background-color: dodgerblue;
+}
+
+.outline-two
+{
+    color: green;
+    border: 2px solid rgb(219, 215, 215) !important;
+    background-color: white;
+}
+
+.outline-two:hover
+{
+    color: white;
+    background-color: green;
+}
+
+.outline-three
+{
+    color: black;
+    border: 2px solid rgb(255, 123, 0) !important;
+    background-color: white;
+}
+
+.outline-three:hover
+{
+    color: white;
+    background-color: rgb(255, 123, 0);
+}
+
+.outline-four
+{
+    color: rgb(196, 50, 50);
+    border: 2px solid rgb(219, 215, 215) !important;
+    background-color: white;
+}
+
+.outline-four:hover
+{
+    color: white;
+    background-color:  rgb(196, 50, 50);
+}
+
+/* ============================================================ */
+
+.solid-one
+{
+    color: white;
+    background-color: dodgerblue;
+    border: none;
+}
+
+.solid-one:hover
+{
+    background-color: rgb(22, 87, 151);
+}
+
+.solid-two
+{
+    color: white;
+    background-color:  rgb(88, 189, 42);
+    border: none;
+}
+
+.solid-two:hover
+{
+    background-color:  rgb(33, 124, 6);
+}
+
+.solid-three
+{
+    color: white;
+    background-color:  rgb(252, 182, 31);
+    border: none;
+}
+
+.solid-three:hover
+{
+    background-color:  rgb(177, 82, 5);
+}
+
+.solid-four
+{
+    color: white;
+    background-color:  rgb(233, 82, 82);
+    border: none;
+}
+
+.solid-four:hover
+{
+    background-color:  rgb(196, 50, 50);
+}
+
+/* ============================================================ */
+
+.style-one
+{
+    color: white;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 20px !important;
+}
+
+.style-one:hover
+{
+    background-color: rgb(22, 87, 151);
+}
+
+.style-two
+{
+    color: white;
+    background-color:  rgb(88, 189, 42);
+    border: none;
+    border-radius: 20px !important;
+}
+
+.style-two:hover
+{
+    background-color:  rgb(33, 124, 6);
+}
+
+.style-three
+{
+    color: white;
+    background-color:  rgb(252, 182, 31);
+    border: none;
+    border-radius: 20px !important;
+}
+
+.style-three:hover
+{
+    background-color:  rgb(177, 82, 5);
+}
+
+.style-four
+{
+    color: white;
+    background-color:  rgb(233, 82, 82);
+    border: none;    border-radius: 20px !important;
+
+}
+
+.style-four:hover
+{
+    background-color:  rgb(196, 50, 50);
+}
+
+
+/* ============================================================ */
+
+.bordered-one
+{
+    color: white;
+    background-color: dodgerblue;
+    border: 2px solid black !important;
+}
+
+.bordered-one:hover
+{
+    background-color: rgb(22, 87, 151);
+}
+
+.bordered-two
+{
+    color: white;
+    background-color:  rgb(88, 189, 42);
+    border: 2px solid black !important;
+}
+
+.bordered-two:hover
+{
+    background-color:  rgb(33, 124, 6);
+}
+
+.bordered-three
+{
+    color: white;
+    background-color:  rgb(252, 182, 31);
+    border: 2px solid black !important;
+}
+
+.bordered-three:hover
+{
+    background-color:  rgb(177, 82, 5);
+}
+
+.bordered-four
+{
+    color: white;
+    background-color:  rgb(233, 82, 82);
+    border: 2px solid black !important;
+}
+
+.bordered-four:hover
+{
+    background-color:  rgb(196, 50, 50);
+}
+
+/* ============================================================ */
+
+.grp-cluster
+{
+    padding: 10px; 
+    margin: 4px;
+}
+
+.btn-grp
+{
+    padding: 0;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.right-side
+{
+    margin: 0 !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+
+.left-side
+{
+    margin: 0 !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+.group-one
+{
+    background-color: rgb(221, 218, 218);
+}
+
+.group-two
+{
+    background-color: rgb(22, 223, 203);
+}
+
+.group-three
+{
+    background-color: rgb(230, 92, 115);
+}
+
+.group-one:hover
+{
+    background-color: rgb(170, 168, 168);
+}
+
+.group-two:hover
+{
+    background-color: rgb(15, 165, 150);
+}
+
+.group-three:hover
+{
+    background-color: rgb(133, 53, 66);
+}
+
+/* ============================================================ */
+
+.misc-one
+{
+    color: white;
+    background-color: dodgerblue;
+    box-shadow: 0px 4px 0px #3a43c7;
+}
+
+.misc-two
+{
+    background-color: white;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.misc-two:hover
+{
+    background-color: #c5c0c0;
+}
+
+.misc-three:hover
+{
+    background-color: grey;
+}
+
+.fa-download
+{
+    margin-right: 5px;
+    margin-left: 0;
+}
+
+.misc-four:hover
+{   
+    cursor: no-drop;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 991px)
+{
+.outermost
+{
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 12px 10px;
+    background-color: #f8fafc;
+}
+
+.btn-row
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 7px;
+}
+
+.button-set
+{
+    width: 49%;
+    border: 1px solid grey;
+    border-radius: 6px;
+}
+
+.heading
+{
+    background-color: rgb(238, 236, 247);
+    border-bottom: 1px solid grey;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 8px 6px;
+    font-weight: 500;
+}
+
+.cluster
+{
+    padding: 10px; 
+    margin: 4px 3px;
+
+}
+
+.cluster button
+{
+    padding: 5px 12px;
+    margin-right: 8px;  
+    margin-bottom: 8px;
+    font-weight: 600;
+    border-radius: 6px;
+    border: 2px solid transparent;
+}
+
+.cluster button:active
+{
+    border: 2px solid black !important;
+}
+
+.outline-one
+{
+    color: dodgerblue;
+    border: 2px solid rgb(219, 215, 215) !important;
+    background-color: white;
+}
+
+.outline-one:hover
+{
+    color: white;
+    background-color: dodgerblue;
+}
+
+.outline-two
+{
+    color: green;
+    border: 2px solid rgb(219, 215, 215) !important;
+    background-color: white;
+}
+
+.outline-two:hover
+{
+    color: white;
+    background-color: green;
+}
+
+.outline-three
+{
+    color: black;
+    border: 2px solid rgb(255, 123, 0) !important;
+    background-color: white;
+}
+
+.outline-three:hover
+{
+    color: white;
+    background-color: rgb(255, 123, 0);
+}
+
+.outline-four
+{
+    color: rgb(196, 50, 50);
+    border: 2px solid rgb(219, 215, 215) !important;
+    background-color: white;
+}
+
+.outline-four:hover
+{
+    color: white;
+    background-color:  rgb(196, 50, 50);
+}
+
+/* ============================================================ */
+
+.solid-one
+{
+    color: white;
+    background-color: dodgerblue;
+    border: none;
+}
+
+.solid-one:hover
+{
+    background-color: rgb(22, 87, 151);
+}
+
+.solid-two
+{
+    color: white;
+    background-color:  rgb(88, 189, 42);
+    border: none;
+}
+
+.solid-two:hover
+{
+    background-color:  rgb(33, 124, 6);
+}
+
+.solid-three
+{
+    color: white;
+    background-color:  rgb(252, 182, 31);
+    border: none;
+}
+
+.solid-three:hover
+{
+    background-color:  rgb(177, 82, 5);
+}
+
+.solid-four
+{
+    color: white;
+    background-color:  rgb(233, 82, 82);
+    border: none;
+}
+
+.solid-four:hover
+{
+    background-color:  rgb(196, 50, 50);
+}
+
+/* ============================================================ */
+
+.style-one
+{
+    color: white;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 20px !important;
+}
+
+.style-one:hover
+{
+    background-color: rgb(22, 87, 151);
+}
+
+.style-two
+{
+    color: white;
+    background-color:  rgb(88, 189, 42);
+    border: none;
+    border-radius: 20px !important;
+}
+
+.style-two:hover
+{
+    background-color:  rgb(33, 124, 6);
+}
+
+.style-three
+{
+    color: white;
+    background-color:  rgb(252, 182, 31);
+    border: none;
+    border-radius: 20px !important;
+}
+
+.style-three:hover
+{
+    background-color:  rgb(177, 82, 5);
+}
+
+.style-four
+{
+    color: white;
+    background-color:  rgb(233, 82, 82);
+    border: none;    border-radius: 20px !important;
+
+}
+
+.style-four:hover
+{
+    background-color:  rgb(196, 50, 50);
+}
+
+
+/* ============================================================ */
+
+.bordered-one
+{
+    color: white;
+    background-color: dodgerblue;
+    border: 2px solid black !important;
+}
+
+.bordered-one:hover
+{
+    background-color: rgb(22, 87, 151);
+}
+
+.bordered-two
+{
+    color: white;
+    background-color:  rgb(88, 189, 42);
+    border: 2px solid black !important;
+}
+
+.bordered-two:hover
+{
+    background-color:  rgb(33, 124, 6);
+}
+
+.bordered-three
+{
+    color: white;
+    background-color:  rgb(252, 182, 31);
+    border: 2px solid black !important;
+}
+
+.bordered-three:hover
+{
+    background-color:  rgb(177, 82, 5);
+}
+
+.bordered-four
+{
+    color: white;
+    background-color:  rgb(233, 82, 82);
+    border: 2px solid black !important;
+}
+
+.bordered-four:hover
+{
+    background-color:  rgb(196, 50, 50);
+}
+
+/* ============================================================ */
+
+.btn-grp
+{
+    padding: 0;
+    margin-right: 10px;
+    float: left;
+}
+
+.right-side
+{
+    margin: 0 !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+
+.left-side
+{
+    margin: 0 !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+.group-one
+{
+    background-color: rgb(221, 218, 218);
+}
+
+.group-two
+{
+    background-color: rgb(22, 223, 203);
+}
+
+.group-three
+{
+    background-color: rgb(230, 92, 115);
+}
+
+.group-one:hover
+{
+    background-color: rgb(170, 168, 168);
+}
+
+.group-two:hover
+{
+    background-color: rgb(15, 165, 150);
+}
+
+.group-three:hover
+{
+    background-color: rgb(133, 53, 66);
+}
+
+/* ============================================================ */
+
+.misc-one
+{
+    color: white;
+    background-color: dodgerblue;
+    box-shadow: 0px 4px 0px #3a43c7;
+}
+
+.misc-two
+{
+    background-color: white;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.misc-two:hover
+{
+    background-color: #c5c0c0;
+}
+
+.misc-three:hover
+{
+    background-color: grey;
+}
+
+.fa-download
+{
+    margin-right: 5px;
+    margin-left: 0;
+}
+
+.misc-four:hover
+{   
+    cursor: no-drop;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 992px)
+{
+.outermost
+{
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 12px 10px;
+    background-color: #f8fafc;
+}
+
+.btn-row
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 7px;
+}
+
+.button-set
+{
+    width: 49%;
+    border: 1px solid grey;
+    border-radius: 6px;
+}
+
+.heading
+{
+    background-color: rgb(238, 236, 247);
+    border-bottom: 1px solid grey;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 8px 6px;
+    font-weight: 500;
+}
+
+.cluster
+{
+    padding: 10px; 
+    margin: 4px 3px;
+
+}
+
+.cluster button
+{
+    padding: 5px 12px;
+    margin-right: 8px;  
+    margin-bottom: 8px;
+    font-weight: 600;
+    border-radius: 6px;
+    border: 2px solid transparent;
+}
+
+.cluster button:active
+{
+    border: 2px solid black !important;
+}
+
+.outline-one
+{
+    color: dodgerblue;
+    border: 2px solid rgb(219, 215, 215) !important;
+    background-color: white;
+}
+
+.outline-one:hover
+{
+    color: white;
+    background-color: dodgerblue;
+}
+
+.outline-two
+{
+    color: green;
+    border: 2px solid rgb(219, 215, 215) !important;
+    background-color: white;
+}
+
+.outline-two:hover
+{
+    color: white;
+    background-color: green;
+}
+
+.outline-three
+{
+    color: black;
+    border: 2px solid rgb(255, 123, 0) !important;
+    background-color: white;
+}
+
+.outline-three:hover
+{
+    color: white;
+    background-color: rgb(255, 123, 0);
+}
+
+.outline-four
+{
+    color: rgb(196, 50, 50);
+    border: 2px solid rgb(219, 215, 215) !important;
+    background-color: white;
+}
+
+.outline-four:hover
+{
+    color: white;
+    background-color:  rgb(196, 50, 50);
+}
+
+/* ============================================================ */
+
+.solid-one
+{
+    color: white;
+    background-color: dodgerblue;
+    border: none;
+}
+
+.solid-one:hover
+{
+    background-color: rgb(22, 87, 151);
+}
+
+.solid-two
+{
+    color: white;
+    background-color:  rgb(88, 189, 42);
+    border: none;
+}
+
+.solid-two:hover
+{
+    background-color:  rgb(33, 124, 6);
+}
+
+.solid-three
+{
+    color: white;
+    background-color:  rgb(252, 182, 31);
+    border: none;
+}
+
+.solid-three:hover
+{
+    background-color:  rgb(177, 82, 5);
+}
+
+.solid-four
+{
+    color: white;
+    background-color:  rgb(233, 82, 82);
+    border: none;
+}
+
+.solid-four:hover
+{
+    background-color:  rgb(196, 50, 50);
+}
+
+/* ============================================================ */
+
+.style-one
+{
+    color: white;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 20px !important;
+}
+
+.style-one:hover
+{
+    background-color: rgb(22, 87, 151);
+}
+
+.style-two
+{
+    color: white;
+    background-color:  rgb(88, 189, 42);
+    border: none;
+    border-radius: 20px !important;
+}
+
+.style-two:hover
+{
+    background-color:  rgb(33, 124, 6);
+}
+
+.style-three
+{
+    color: white;
+    background-color:  rgb(252, 182, 31);
+    border: none;
+    border-radius: 20px !important;
+}
+
+.style-three:hover
+{
+    background-color:  rgb(177, 82, 5);
+}
+
+.style-four
+{
+    color: white;
+    background-color:  rgb(233, 82, 82);
+    border: none;    border-radius: 20px !important;
+
+}
+
+.style-four:hover
+{
+    background-color:  rgb(196, 50, 50);
+}
+
+
+/* ============================================================ */
+
+.bordered-one
+{
+    color: white;
+    background-color: dodgerblue;
+    border: 2px solid black !important;
+}
+
+.bordered-one:hover
+{
+    background-color: rgb(22, 87, 151);
+}
+
+.bordered-two
+{
+    color: white;
+    background-color:  rgb(88, 189, 42);
+    border: 2px solid black !important;
+}
+
+.bordered-two:hover
+{
+    background-color:  rgb(33, 124, 6);
+}
+
+.bordered-three
+{
+    color: white;
+    background-color:  rgb(252, 182, 31);
+    border: 2px solid black !important;
+}
+
+.bordered-three:hover
+{
+    background-color:  rgb(177, 82, 5);
+}
+
+.bordered-four
+{
+    color: white;
+    background-color:  rgb(233, 82, 82);
+    border: 2px solid black !important;
+}
+
+.bordered-four:hover
+{
+    background-color:  rgb(196, 50, 50);
+}
+
+/* ============================================================ */
+
+.btn-grp
+{
+    padding: 0;
+    margin-right: 10px;
+    float: left;
+}
+
+.right-side
+{
+    margin: 0 !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+
+.left-side
+{
+    margin: 0 !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+.group-one
+{
+    background-color: rgb(221, 218, 218);
+}
+
+.group-two
+{
+    background-color: rgb(22, 223, 203);
+}
+
+.group-three
+{
+    background-color: rgb(230, 92, 115);
+}
+
+.group-one:hover
+{
+    background-color: rgb(170, 168, 168);
+}
+
+.group-two:hover
+{
+    background-color: rgb(15, 165, 150);
+}
+
+.group-three:hover
+{
+    background-color: rgb(133, 53, 66);
+}
+
+/* ============================================================ */
+
+.misc-one
+{
+    color: white;
+    background-color: dodgerblue;
+    box-shadow: 0px 4px 0px #3a43c7;
+}
+
+.misc-two
+{
+    background-color: white;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.misc-two:hover
+{
+    background-color: #c5c0c0;
+}
+
+.misc-three:hover
+{
+    background-color: grey;
+}
+
+.fa-download
+{
+    margin-right: 5px;
+    margin-left: 0;
+}
+
+.misc-four:hover
+{   
+    cursor: no-drop;
+}
+
+}
+
+
+
+
+
+
+

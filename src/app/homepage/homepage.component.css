@@ -1,0 +1,963 @@
+@media screen and (max-width: 767px)
+{
+.outermost
+{
+    width: 100%;
+    padding: 5px 20px;
+}
+
+.outermost > div
+{
+    margin: 20px 0;
+}
+
+.heading
+{
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.sec1
+{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.outer
+{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px 0;
+    padding: 20px;
+    color: white;
+    font-weight: 400;
+    font-size: 23px;
+}
+
+#one
+{
+    background-color: #e46050;
+    border-left: 8px solid #d64230;
+}
+
+#two
+{
+    background-color: #52bcdc;
+    border-left: 8px solid #2cadd4;
+}
+
+#three
+{
+    background-color: #f4ab43;
+    border-left: 8px solid #c37c16;
+}
+
+#four
+{
+    background-color: #72b159;
+    border-left: 8px solid #5d9547;
+}
+
+/* ================================================ */
+
+.sec2
+{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.heading
+{
+    align-items: start;
+}
+
+table
+{
+    width: 100%;
+    border: 1px solid grey;
+    overflow-x: hidden;
+}
+
+tr, th, td
+{
+    border-top: 1px solid grey;
+    border-collapse: collapse;
+    padding: 3px;
+}
+
+tr:first-child
+{
+    background-color: grey;
+    color: white;
+}
+
+tr div
+{
+    width: 100%;
+    height: 100%;
+}
+
+#twitter
+{
+    background-color: rgb(87, 135, 240);
+    border-radius: 1rem;
+    border: none;
+    color: white;
+    padding: 4px 6px;
+}
+
+#facebook
+{
+    background-color: teal;
+    border-radius: 1rem;
+    border: none;
+    color: white;
+    padding: 4px 6px;
+}
+
+#amazon
+{
+    background-color: rgb(111, 209, 111);
+    border-radius: 1rem;
+    border: none;
+    color: white;
+    padding: 4px 6px;
+}
+
+#microsoft
+{
+    background-color: rgb(14, 189, 189);
+    border-radius: 1rem;
+    border: none;
+    color: white;
+    padding: 4px 6px;
+}
+
+.green
+{
+    color: green;
+}
+
+.red
+{
+    color: red;
+}
+
+/* ===================================================== */
+
+.sec3
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.outerbar
+{
+    height: 23px;
+    background-color: #ecf0f1;
+    margin-bottom: 8px;
+}
+
+#inner1
+{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #2cadd4;
+}
+
+#inner2
+{
+    height: 100%;
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(52, 170, 158);
+}
+
+#inner3
+{
+    height: 100%;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #d3871c;
+}
+
+#inner4
+{
+    height: 100%;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(119, 22, 22);
+}
+
+/* ================================================= */
+
+.sec4
+{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 100%;
+    cursor: pointer;
+    justify-content: space-between;
+}
+
+.containerr
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 1px solid rgb(202, 201, 201);
+    border-radius: 0.5rem;
+    align-items: center;
+    padding-bottom: 10px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.coverp
+{
+    width: 100%;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;  
+}
+
+.pfpdiv
+{
+    width: 6rem;
+    height: 3rem;
+}
+
+.pfp
+{
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: relative;
+    top: -50px;
+}
+
+.texttt
+{
+    text-align: center;
+
+}
+
+.text
+{
+    font-size: 1.2rem;
+    padding-bottom: 7px;
+}
+
+.hrside
+{
+    display: flex;
+}
+
+.innertext
+{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 5px;
+    font-size: 20px;
+    color: grey;
+    text-align: center;
+}
+
+.vl
+{
+    border-left: 1.5px solid rgb(202, 201, 201);
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 991px)
+{
+    .outermost
+{
+    width: 100%;
+    padding: 20px 30px;
+}
+
+.outermost > div
+{
+    margin: 20px 0;
+}
+
+.heading
+{
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.sec1
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.outer
+{
+    height: 100px;
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    color: white;
+    font-weight: 400;
+    font-size: 23px;
+}
+
+#one
+{
+    background-color: #e46050;
+    border-left: 8px solid #d64230;
+}
+
+#two
+{
+    background-color: #52bcdc;
+    border-left: 8px solid #2cadd4;
+}
+
+#three
+{
+    background-color: #f4ab43;
+    border-left: 8px solid #c37c16;
+}
+
+#four
+{
+    background-color: #72b159;
+    border-left: 8px solid #5d9547;
+}
+
+/* ================================================ */
+
+table
+{
+    width: 100%;
+    border: 1px solid grey;
+    margin: 10px 0;
+
+}
+
+tr, th, td
+{
+    border-top: 1px solid grey;
+    border-collapse: collapse;
+    padding: 10px 10px;
+}
+
+tr:first-child
+{
+    background-color: grey;
+    color: white;
+}
+
+tr div
+{
+    width: 100%;
+    height: 100%;
+}
+
+#twitter
+{
+    background-color: rgb(87, 135, 240);
+    border-radius: 1rem;
+    border: none;
+    color: white;
+    padding: 4px 6px;
+}
+
+#facebook
+{
+    background-color: teal;
+    border-radius: 1rem;
+    border: none;
+    color: white;
+    padding: 4px 6px;
+}
+
+#amazon
+{
+    background-color: rgb(111, 209, 111);
+    border-radius: 1rem;
+    border: none;
+    color: white;
+    padding: 4px 6px;
+}
+
+#microsoft
+{
+    background-color: rgb(14, 189, 189);
+    border-radius: 1rem;
+    border: none;
+    color: white;
+    padding: 4px 6px;
+}
+
+.green
+{
+    color: green;
+}
+
+.red
+{
+    color: red;
+}
+
+/* ===================================================== */
+
+.sec3
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.outerbar
+{
+    height: 23px;
+    background-color: #ecf0f1;
+    margin-bottom: 8px;
+}
+
+#inner1
+{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #2cadd4;
+}
+
+#inner2
+{
+    height: 100%;
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(52, 170, 158);
+}
+
+#inner3
+{
+    height: 100%;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #d3871c;
+}
+
+#inner4
+{
+    height: 100%;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(119, 22, 22);
+}
+
+/* ================================================= */
+
+.sec4
+{
+    display: flex;
+    height: fit-content;
+    width: 100%;
+    cursor: pointer;
+    justify-content: space-between;
+}
+
+.containerr
+{
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    border: 1px solid rgb(202, 201, 201);
+    border-radius: 0.5rem;
+    align-items: center;
+    padding-bottom: 10px;
+    margin: 10px 5px;
+}
+
+.coverp
+{
+    width: 100%;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;  
+}
+
+.pfpdiv
+{
+    width: 6rem;
+    height: 3rem;
+}
+
+.pfp
+{
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: relative;
+    top: -50px;
+}
+
+.text
+{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 7px;
+}
+
+.texttt
+{
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 7px;
+}
+
+.hrside
+{
+    display: flex;
+}
+
+.innertext
+{
+    display: flex;
+    flex-direction: column;
+    width: 50ox;
+    margin: 0 15px;
+    font-size: 20px;
+    color: grey;
+    text-align: center;
+}
+
+.vl
+{
+    border-left: 1.5px solid rgb(202, 201, 201);
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 992px)
+{
+    .outermost
+{
+    width: 100%;
+    padding: 20px 30px;
+}
+
+.outermost > div
+{
+    margin: 20px 0;
+}
+
+.heading
+{
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.sec1
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.outer
+{
+    height: 100px;
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    color: white;
+    font-weight: 400;
+    font-size: 23px;
+}
+
+#one
+{
+    background-color: #e46050;
+    border-left: 8px solid #d64230;
+}
+
+#two
+{
+    background-color: #52bcdc;
+    border-left: 8px solid #2cadd4;
+}
+
+#three
+{
+    background-color: #f4ab43;
+    border-left: 8px solid #c37c16;
+}
+
+#four
+{
+    background-color: #72b159;
+    border-left: 8px solid #5d9547;
+}
+
+/* ================================================ */
+
+table
+{
+    width: 100%;
+    border: 1px solid grey;
+    margin: 10px 0;
+
+}
+
+tr, th, td
+{
+    border-top: 1px solid grey;
+    border-collapse: collapse;
+    padding: 10px 10px;
+}
+
+tr:first-child
+{
+    background-color: grey;
+    color: white;
+}
+
+tr div
+{
+    width: 100%;
+    height: 100%;
+}
+
+#twitter
+{
+    background-color: rgb(87, 135, 240);
+    border-radius: 1rem;
+    border: none;
+    color: white;
+    padding: 4px 6px;
+}
+
+#facebook
+{
+    background-color: teal;
+    border-radius: 1rem;
+    border: none;
+    color: white;
+    padding: 4px 6px;
+}
+
+#amazon
+{
+    background-color: rgb(111, 209, 111);
+    border-radius: 1rem;
+    border: none;
+    color: white;
+    padding: 4px 6px;
+}
+
+#microsoft
+{
+    background-color: rgb(14, 189, 189);
+    border-radius: 1rem;
+    border: none;
+    color: white;
+    padding: 4px 6px;
+}
+
+.green
+{
+    color: green;
+}
+
+.red
+{
+    color: red;
+}
+
+/* ===================================================== */
+
+.sec3
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.outerbar
+{
+    height: 23px;
+    background-color: #ecf0f1;
+    margin-bottom: 8px;
+}
+
+#inner1
+{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #2cadd4;
+}
+
+#inner2
+{
+    height: 100%;
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(52, 170, 158);
+}
+
+#inner3
+{
+    height: 100%;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #d3871c;
+}
+
+#inner4
+{
+    height: 100%;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(119, 22, 22);
+}
+
+/* ================================================= */
+
+.sec4
+{
+    display: flex;
+    height: fit-content;
+    width: 100%;
+    cursor: pointer;
+    justify-content: space-between;
+}
+
+.containerr
+{
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    border: 1px solid rgb(202, 201, 201);
+    border-radius: 0.5rem;
+    align-items: center;
+    padding-bottom: 10px;
+    margin: 10px 5px;
+}
+
+.coverp
+{
+    width: 100%;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;  
+}
+
+.pfpdiv
+{
+    width: 6rem;
+    height: 3rem;
+}
+
+.pfp
+{
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: relative;
+    top: -50px;
+}
+
+.text
+{
+    font-size: 1.2rem;
+    padding-bottom: 7px;
+}
+
+.hrside
+{
+    display: flex;
+}
+
+.innertext
+{
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    margin: 0 15px;
+    font-size: 20px;
+    color: grey;
+    text-align: center;
+}
+
+.vl
+{
+    border-left: 1.5px solid rgb(202, 201, 201);
+}
+}
+
