@@ -4,6 +4,7 @@ import { FormsComponent } from './forms/forms.component';
 import { ButtonsComponent } from './buttons/buttons.component';
 import { TablesComponent } from './tables/tables.component';
 import { UiComponentsComponent } from './ui-components/ui-components.component';
+import { ModalsComponent } from './modals/modals.component';
 
 export const routes: Routes =
 [
@@ -13,9 +14,9 @@ export const routes: Routes =
     { path: "buttons"       , component: ButtonsComponent } ,
     { path: "tables"        , component: TablesComponent } ,
     { path: "Ui-components" , component: UiComponentsComponent } ,
-    // { path: "modals"     , component: homepage } ,
-    // { path: "login"      , component: homepage } ,
-    // { path: "register"   , component: homepage } ,
-    // { path: "404-page"   , component: homepage } ,
+    { path: "modals"     , component: ModalsComponent } ,
+    // { path: "login-age"      , component: homepage } ,
+    // { path: "signup-page"   , component: homepage } ,
+    // { path: "error-page"   , component: homepage } ,
 
 ];

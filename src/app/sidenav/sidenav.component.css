@@ -20,6 +20,26 @@
     border-bottom: 1px solid white;
 }
 
+.nav-data-empty
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    border-bottom: 1px solid white;
+}
+
+.nav-data-empty div
+{
+    margin: 10px;
+}
+
+.nav-data-empty > div > i
+{
+    padding-right: 3px;
+    color: grey;
+}
+
 .nav-data:hover
 {
     background-color: white;
