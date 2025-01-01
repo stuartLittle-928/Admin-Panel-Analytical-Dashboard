@@ -5,6 +5,7 @@ import { raceWith } from 'rxjs';
 import { getLocaleDayPeriods } from '@angular/common';
 import { FormsComponent } from './components/forms/forms.component';
 import { ButtonsComponent } from './components/buttons/buttons.component';
+import { UIComponentsComponent } from './ui-components/ui-components.component';
 
 
 export const routes: Routes = [
@@ -30,6 +31,11 @@ export const routes: Routes = [
     {
         path:'buttons',
         component: ButtonsComponent
+    }
+    ,
+    {
+        path:'UIcomponents',
+        component:UIComponentsComponent
     }
 ];
 

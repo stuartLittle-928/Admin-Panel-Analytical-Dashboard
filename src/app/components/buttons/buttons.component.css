@@ -1,0 +1,310 @@
+.buttonsMain
+{
+    padding: 0.75rem;
+    background-color: #FAFAFA;
+    border: 1px solid #e2e8f0;
+}
+.buttonInner-Form
+{
+    display: flex;
+    flex-direction: column;
+}
+.outlineSolid
+{
+    display: flex;
+    flex-direction: row;
+}
+.OutlineButton
+{
+    width: 50%;
+    margin-bottom: 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid #e2e8f0;
+}
+.outline-heading
+{
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border-bottom: 1px solid #e2e8f0;
+    background-color: #edf2f7;
+}
+.buttonsinnerButtons
+{
+    padding: 0.75rem;
+}
+.outlineButton1
+{
+    color: #1f9d55;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-weight: 600;
+    border-radius: 0.25rem;
+    border: 1px solid #e2e8f0;
+    background-color: transparent;
+}
+.outlineButton2
+{
+    color: #2779bd;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-weight: 600;
+    border-radius: 0.25rem;
+    border: 1px solid #e2e8f0;
+    background-color: transparent;
+}
+.outlineButton3
+{
+    color: black;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-weight: 600;
+    border-radius: 0.25rem;
+    border: 1px solid #ed8936;
+    background-color: transparent;
+}
+.outlineButton4
+{
+    color: #c53030;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-weight: 600;
+    border-radius: 0.25rem;
+    border: 1px solid #e2e8f0;
+    background-color: transparent;
+}
+.solidButton
+{
+    width: 50%;
+    border-radius: 0.25rem;
+    border: 1px solid #e2e8f0;
+    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+.solid-heading
+{
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border-bottom: 1px solid #e2e8f0;
+    background-color: #edf2f7;
+}
+.buttonsInnerButtons
+{
+    padding: 0.75rem;
+}
+.solidButton1
+{
+    color: #fff;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-weight: 700;
+    border-radius: 0.25rem;
+    background-color: #4299e1;
+    border: 1px solid #e2e8f0;
+}
+.solidButton2
+{
+    color: #fff;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-weight: 700;
+    border-radius: 0.25rem;
+    background-color: #48bb78;
+    border: 1px solid #e2e8f0;
+}
+.solidButton3
+{
+    color: #fff;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-weight: 700;
+    border-radius: 0.25rem;
+    background-color: #ed8936;
+    border: 1px solid #e2e8f0;
+}
+.solidButton4
+{
+    color: #fff;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-weight: 700;
+    border-radius: 0.25rem;
+    background-color: #f56565;
+    border: 1px solid #e2e8f0;
+}
+.StyleButton
+{
+    width: 50%;
+    border-radius: 0.25rem;
+    border: 1px solid #e2e8f0;
+    margin-bottom: 0.5rem;
+    /* margin-left: 0.5rem;
+    margin-right: 0.5rem; */
+}
+.borderedButton
+{
+    width: 50%;
+    border-radius: 0.25rem;
+    border: 1px solid #e2e8f0;
+    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;   
+}
+.styleButton1
+{
+    color: #fff;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-weight: 700;
+    border-radius: 9999px;
+    background-color: #4299e1;
+    border: 1px solid #e2e8f0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.styleButton2
+{
+    color: #fff;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-weight: 700;
+    border-radius: 9999px;
+    background-color: #48bb78;
+    border: 1px solid #e2e8f0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.styleButton3
+{
+    color: #fff;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-weight: 700;
+    border-radius: 9999px;
+    background-color: #ed8936;
+    border: 1px solid #e2e8f0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.styleButton4
+{
+    color: #fff;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-weight: 700;
+    border-radius: 9999px;
+    background-color: #f56565;
+    border: 1px solid #e2e8f0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.borderedButton1
+{
+    color: #fff;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-weight: 700;
+    border-radius: 0.25rem;
+    border: 1px solid #2c5282;
+    background-color: #4299e1;
+}
+.borderedButton2
+{
+    color: #fff;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-weight: 700;
+    border-radius: 0.25rem;
+    border: 1px solid #276749;
+    background-color: #48bb78;
+}
+.borderedButton3
+{
+    color: #fff;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-weight: 700;
+    border-radius: 0.25rem;
+    border: 1px solid #9c4221;
+    background-color: #ed8936;
+}
+.borderedButton4
+{
+    color: #fff;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-weight: 700;
+    border-radius: 0.25rem;
+    border: 1px solid #9b2c2c;
+    background-color: #f56565;
+}
+.button1
+{
+    display: flex;
+    flex-direction: row;
+    
+}
+.groupinnerButtons
+{
+    display: flex;
+    flex-direction: row;
+    padding: 0.75rem;
+}
+/* .btn-primary
+{
+    background-color: #1f9d55 !important;
+    --bs-btn-border-color: none;
+} */
+.groupButton1
+{
+    color: #1a202c;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-weight: 700;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+    background-color: #edf2f7;
+    border: 1px solid #e2e8f0;
+}
+.groupButton11
+{
+    color: #1a202c;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-weight: 700;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+    background-color: #edf2f7;
+}
