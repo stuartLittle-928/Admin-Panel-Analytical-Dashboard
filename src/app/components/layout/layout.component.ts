@@ -15,11 +15,14 @@ import { NgIf } from '@angular/common';
 export class LayoutComponent {
 
   toggleSideBar: boolean = true; //local variable
-
+  dummy : any;
+  dumm1:any =  null;
 
 // class constructor 
   constructor(private dataCommunication: DataCommunicationService) {
 
+    console.log(this.dummy,'dummy....')
+    console.log(this.dumm1,'value nul....')
     // Getting data from service 
     this.dataCommunication.getSideBarStatus().subscribe( (res: any) =>{
       this.toggleSideBar = res; //assgining to local variable for using in html template
