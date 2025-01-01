@@ -6,6 +6,7 @@ import { getLocaleDayPeriods } from '@angular/common';
 import { FormsComponent } from './components/forms/forms.component';
 import { ButtonsComponent } from './components/buttons/buttons.component';
 import { UIComponentsComponent } from './ui-components/ui-components.component';
+import { RegisterPageComponent } from './register-page/register-page.component';
 
 
 export const routes: Routes = [
@@ -36,6 +37,11 @@ export const routes: Routes = [
     {
         path:'UIcomponents',
         component:UIComponentsComponent
+    }
+    ,
+    {
+        path:'RegisterPage',
+        component:RegisterPageComponent
     }
 ];
 
