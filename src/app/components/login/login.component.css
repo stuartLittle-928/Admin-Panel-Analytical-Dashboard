@@ -1,0 +1,85 @@
+.body{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    height: 94vh;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(55,55,98,1) 28%, rgba(0,212,255,1) 100%);
+}
+.body .w-100{
+    max-width: 32rem;
+}
+form{
+    padding: 2.5rem;
+    max-width: 36rem;
+    margin: 1rem;
+    background-color: #fff;
+    border-radius: 0.25rem;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    line-height: 2;
+}
+.formTitle{
+    font-size: 1.125rem;
+    color: #2d3748;
+    text-align: center;
+    font-weight: 700;
+}
+.label{
+    display: block;
+    font-size: 0.875rem;
+    padding-left: 0.25rem;
+}
+.nameBox .inputField{
+    width: 100%;
+    color: #4a5568;
+    padding: 0.25rem 1.25rem;
+    border-radius: 0.25rem;
+    background-color: #edf2f7;
+    border: none;
+}
+.nameBox .inputField::placeholder{
+    font-weight: 400;
+}
+.passwordBox{
+    margin-top: 0.5rem;
+    color:#718096;
+}
+.passwordBox .inputField{
+    width: 100%;
+    color: #4a5568;
+    padding: 0.25rem 1.25rem;
+    border-radius: 0.25rem;
+    background-color: #edf2f7;
+    border: none;
+}
+.loginBox{
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.login{
+    padding: 0.25rem 1rem;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    color: #fff;
+    background-color: #1a202c;
+    border-radius: 0.25rem;
+    border: none;
+}
+.loginBox .forgetPs{
+    display: inline-block;
+    font-weight: 700;
+    color: #000;
+    padding-left: 0.5rem;
+    font-size: 0.875rem;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+.notRegsd{
+    font-weight: 700;
+    color: #000;
+    font-size: 0.875rem;
+    vertical-align: baseline;
+    text-decoration: none;
+}

@@ -1,18 +1,15 @@
-<div class="header">
-    <app-header></app-header>
-</div>
-<div class="lefsidebar"  *ngIf="toggleSideBar"> 
-    <app-leftside-bar></app-leftside-bar>
-</div>
-
-<div class="content-area">
-    <app-content-area></app-content-area>
-</div>
-
-
-
-
-
-
-
-
+<div class="container-fluid mx-auto">
+    <div class="header">
+      <app-header></app-header>
+    </div>
+    <div class="body">
+      <div class="sidemenu" [ngClass]="sideBarStatus? 'd-block': 'd-none'">
+        <app-leftside-bar></app-leftside-bar>
+      </div>
+      <div class="content" [class.w-100]="!sideBarStatus">
+        <app-content-area></app-content-area>
+        <!-- <app-tables></app-tables> -->
+      </div>
+    </div>
+  </div>
+  
