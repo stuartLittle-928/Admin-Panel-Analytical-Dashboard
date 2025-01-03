@@ -9,11 +9,12 @@ import { TablesComponent } from '../tables/tables.component';
 import { UiComponentsComponent } from '../ui-components/ui-components.component';
 import { ModalsComponent } from '../modals/modals.component';
 import { FooterComponent } from "../footer/footer.component";
+import { ErrorPageComponent } from "../error-page/error-page.component";
 
 @Component({
   selector: 'app-layout',
   standalone: true,
-  imports: [RouterOutlet, HeaderComponent, SidenavComponent, HomepageComponent, FormsComponent, ButtonsComponent, TablesComponent, UiComponentsComponent, ModalsComponent, FooterComponent],
+  imports: [RouterOutlet, HeaderComponent, SidenavComponent, HomepageComponent, FormsComponent, ButtonsComponent, TablesComponent, UiComponentsComponent, ModalsComponent, FooterComponent, ErrorPageComponent],
   templateUrl: './layout.component.html',
   styleUrl: './layout.component.css'
 })
