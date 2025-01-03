@@ -1,0 +1,64 @@
+.main-Body
+{
+    background: url(../../../assets/login-new.jpeg);
+    height: 40rem;
+}
+.Outer-centerDiv
+{
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Inner-centerDiv
+{
+    width: 100%;
+    max-width: 32rem;
+    line-height: 2;
+}
+.form
+{
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    padding: 2.5rem;
+    margin: 1rem;
+    
+    border-radius: 0.25rem;
+    background-color: #fff;
+}
+.register-heading
+{
+    font-weight: 500;
+}
+.label1
+{
+    font-size: 0.875rem;
+}
+.input1
+{
+    width: 100%;
+    color: #4a5568;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    border-radius: 0.25rem;
+    background-color: #edf2f7;
+    border: 0px;
+}
+.input2
+{
+    width: 50%;
+    margin-top: 0.5rem;
+    padding-right: 0.25rem;
+    display: inline-block;
+    color: #4a5568;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    border-radius: 0.25rem;
+    background-color: #edf2f7;
+    border: 0px;
+}
