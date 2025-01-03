@@ -5,6 +5,7 @@ import { ButtonsComponent } from './components/buttons/buttons.component';
 import { TablesComponent } from './components/tables/tables.component';
 import { LoginComponent } from './components/login/login.component';
 import { UIComponentsComponent } from './ui-components/ui-components.component';
+import { RegisterPageComponent } from './components/register-page/register-page.component';
 
 export const routes: Routes = [
     
@@ -39,5 +40,10 @@ export const routes: Routes = [
         {
             path:'UIComponent',
             component:UIComponentsComponent
+        }
+        ,
+        {
+            path:'register',
+            component:RegisterPageComponent
         }
 ]
