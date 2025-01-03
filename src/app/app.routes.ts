@@ -6,6 +6,7 @@ import { TablesComponent } from './components/tables/tables.component';
 import { LoginComponent } from './components/login/login.component';
 import { UIComponentsComponent } from './ui-components/ui-components.component';
 import { RegisterPageComponent } from './components/register-page/register-page.component';
+import { ModalsComponent } from './components/modals/modals.component';
 
 export const routes: Routes = [
     
@@ -45,5 +46,10 @@ export const routes: Routes = [
         {
             path:'register',
             component:RegisterPageComponent
+        }
+        ,
+        {
+            path:'modals',
+            component:ModalsComponent
         }
 ]
