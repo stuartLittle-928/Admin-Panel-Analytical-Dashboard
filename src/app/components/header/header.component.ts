@@ -1,26 +1,21 @@
 import { Component } from '@angular/core';
 import { LeftsideBarComponent } from "../leftside-bar/leftside-bar.component";
-import { DataCommunicationService } from '../../services/data-communication.service';
+import { ConditionHandlingService } from '../../services/data-communication.service';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [LeftsideBarComponent],
+  imports: [LeftsideBarComponent,RouterLink],
   templateUrl: './header.component.html',
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
 
-  showSideBar: boolean = true;
-
-  
-  constructor(private dataCommunication: DataCommunicationService) {}
-
-  // onclick function called 
-  toggle(){
-    this.showSideBar = !this.showSideBar;
-
-    // setting sidebar data using service 
-    this.dataCommunication.setSideBarStatus(this.showSideBar);
+  isVisible:boolean=true;
+  constructor( private conditionhandling:ConditionHandlingService){}
+  Togglebtn(){
+    this.isVisible=!this.isVisible;
+    this.conditionhandling.setSideBarStatus(this.isVisible);
   }
 }

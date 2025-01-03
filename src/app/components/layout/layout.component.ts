@@ -2,34 +2,24 @@ import { Component } from '@angular/core';
 import { HeaderComponent } from "../header/header.component";
 import { LeftsideBarComponent } from "../leftside-bar/leftside-bar.component";
 import { ContentAreaComponent } from "../content-area/content-area.component";
-import { DataCommunicationService } from '../../services/data-communication.service';
-import { NgIf } from '@angular/common';
+import { ConditionHandlingService } from '../../services/data-communication.service';
+import { CommonModule, NgIf } from '@angular/common';
 
 @Component({
   selector: 'app-layout',
   standalone: true,
-  imports: [HeaderComponent, LeftsideBarComponent, ContentAreaComponent , NgIf],
-  templateUrl: './layout.component.html',
+  imports: [HeaderComponent, LeftsideBarComponent, ContentAreaComponent , CommonModule],
+  templateUrl:'./layout.component.html',
   styleUrl: './layout.component.css'
 })
 export class LayoutComponent {
 
-  toggleSideBar: boolean = true; //local variable
+  sideBarStatus:boolean=true;
 
+  constructor(private conditionhandling: ConditionHandlingService){
 
-// class constructor 
-  constructor(private dataCommunication: DataCommunicationService) {
-
-    // Getting data from service 
-    this.dataCommunication.getSideBarStatus().subscribe( (res: any) =>{
-      this.toggleSideBar = res; //assgining to local variable for using in html template
-    
-
-      // can check the Response data in console by console.log() 
-    })
-  }
-
-
-
-
+  this.conditionhandling.getSideBarStatus().subscribe((res:any) =>{
+    this.sideBarStatus=res;
+  })
+}
 }

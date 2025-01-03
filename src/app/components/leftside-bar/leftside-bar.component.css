@@ -1,37 +1,31 @@
-.lefsidebar
-{
+.sidemenu{
+    display:block;
+    color: #626b7a;
     position: relative;
 }
-.bars
-{
-    position: absolute;
-    top: -45px;
-    font-size: 22px;
-    color: white;
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
-.btn
-{
-    text-decoration: none;
-    border: none;
+a{
     cursor: pointer;
+    text-decoration: none;
+    color: #626b7a;
+    font-weight: 100;
+    font-size: 0.875rem;
 }
-.element
-{
-    background-color: #ecf0f1;
-    color: #6f778d    ;
-    border: 1px solid #dfe4e6;
-    height: 40px;
-    align-items: center;
-    display: flex;
-    align-items: center;
-    height: 50px;
-    cursor: pointer;  /* for hand pointer on hover  */
+a:hover{
+    font-size:0.975rem;
+    font-weight: 400;
 }
-
-@media screen and (max-width:768px) {
-    .lefsidebar
-    {
-        display: none;
-    }
+a div{
+    display: inline;
+}
+li{
+    border-color: #dfe4e6;
+}
+span i{
+    float: right;
 }
